@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-
 import requests
 
 url = "https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss"
@@ -22,8 +21,6 @@ def main():
 	with open('./componente_organizacional.pdf','wb') as f:
 		f.write(pdf)
 
-
+ 
 if __name__ == '__main__':
 	main()
-
- 
